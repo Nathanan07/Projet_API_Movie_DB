@@ -13,7 +13,7 @@ if ( isset($_GET['id']) AND !empty($_GET['id'])){
 
 <div class="album py-5 bg-body-tertiary">
   <div class="container">
-       <h4>Films les mieux notés</h4>
+       <h4>Films par genres</h4>
      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
      <?php foreach($genres as $movie) : ?>  
         <div class="d-flex align-items-stretchl">
