@@ -1,5 +1,5 @@
 <?php
-function getProxy($url){
+/* function getProxy($url){
     $options = [
         'http' => [
             'proxy' => 'tcp://172.16.0.54:8080',
@@ -15,6 +15,10 @@ function getProxy($url){
     } else {
         return $response;
     }
+} */
+
+function getProxy($url){
+    return file_get_contents($url);
 }
 
 ?>
